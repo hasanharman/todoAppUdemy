@@ -1,0 +1,56 @@
+<head>
+    <link href="assets/dashboard.css" rel="stylesheet">
+</head>
+
+<body ng-conroller="addTaskCtrl">
+    <h1 class="headingMain">Görev Ekleme</h1>
+
+    <div class="outer-menu">
+        <input class="checkbox-toggle" type="checkbox" />
+        <div class="hamburger">
+            <div></div>
+        </div>
+        <div class="menu">
+            <div>
+                <div>
+                    <ul>
+                        <li><a ng-click="home()">Anasayfa</a></li>
+                        <li><a ng-click="addtask()">Görev Ekle</a></li>
+                        <li><a ng-click="totaltask()">Görevlerim</a></li>
+                        <li><a ng-click="notifications()">Bildirimler</a></li>
+                        <li><a ng-click="exit()">Çıkış</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container addTask">
+        <form>
+            <div class="personalInf" ng-model="personalInf" ng-show="showval">
+                <h2>Kişisel Bilgiler</h2>
+                <div class="form-group">
+                    <label for="ad">Ad</label>
+                    <input type="text" class="form-control" id="ad" ng-model="ad" />
+                </div>
+                <div class="form-group">
+                    <label for="soyad">Soyad</label>
+                    <input type="text" class="form-control" id="soyad" ng-model="soyad" />
+                </div>
+                <div class="form-group">
+                    <label for="task">Görev</label>
+                    <input type="text" class="form-control" id="task" ng-model="task" />
+                </div>
+                <button type="submit" class="btn btn-warning" ng-click="add()">Kaydet</button>
+            </div>
+        </form><br />
+    </div>
+    <script>
+        const electron = require('electron');
+        const {
+            ipcRenderer
+        } = electron;
+    </script>
+    <script src="/scripts/dashboard.js"></script>
+
+</body>

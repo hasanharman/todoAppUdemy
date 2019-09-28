@@ -1,0 +1,37 @@
+<head>
+    <link href="assets/dashboard.css" rel="stylesheet">
+</head>
+
+<body ng-conroller="totalTaskCtrl">
+    <h1 class="headingMain">Görevlerim</h1>
+
+    <div class="outer-menu">
+        <input class="checkbox-toggle" type="checkbox" />
+        <div class="hamburger">
+            <div></div>
+        </div>
+        <div class="menu">
+            <div>
+                <div>
+                    <ul>
+                        <li><a ng-click="home()">Anasayfa</a></li>
+                        <li><a ng-click="addtask()">Görev Ekle</a></li>
+                        <li><a ng-click="totaltask()">Görevlerim</a></li>
+                        <li><a ng-click="notifications()">Bildirimler</a></li>
+                        <li><a ng-click="exit()">Çıkış</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container totalDrivers">
+        <h2>Görev Listesi</h2>
+        <h2>{{ numGen }}</h2>
+        <h2>{{size}}</h2>
+        <div id="task-list"></div>
+    </div>
+
+
+    <script src="/scripts/dashboard.js"></script>
+</body>

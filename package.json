@@ -1,0 +1,25 @@
+{
+  "name": "finance-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.Finance.app",
+    "mac": {
+      "category": "harman.finance.finance.type"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^6.0.7",
+    "electron-builder": "^21.0.15"
+  },
+  "dependencies": {}
+}
