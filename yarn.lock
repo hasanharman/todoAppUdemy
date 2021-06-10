@@ -588,10 +588,10 @@ electron-publish@21.0.15:
     lazy-val "^1.0.4"
     mime "^2.4.4"
 
-electron@^5.0.6:
-  version "5.0.6"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-5.0.6.tgz#e3ca4a58b5716fceef3fb64e1fd2222dd9c51de0"
-  integrity sha512-0L53lv26eDhaaNxL6DqXGQrQOEAYbrQg40stRSb2pzrY06kwPbABzXEiaCvEsBuKUQ+9OQBbVyyvXRbLJlun/A==
+electron@^6.0.7:
+  version "6.1.12"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-6.1.12.tgz#a7aee6dfa75b57f32b3645ef8e14dcef6d5f31a9"
+  integrity sha512-RUPM8xJfTcm53V9EKMBhvpLu1+CQkmuvWDmVCypR5XbUG1OOrOLiKl0CqUZ9+tEDuOmC+DmzmJP2MZXScBU5IA==
   dependencies:
     "@types/node" "^10.12.18"
     electron-download "^4.1.0"
@@ -1249,9 +1249,9 @@ normalize-package-data@^2.3.2, normalize-package-data@^2.3.4, normalize-package-
     validate-npm-package-license "^3.0.1"
 
 normalize-url@^4.1.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.3.0.tgz#9c49e10fc1876aeb76dba88bf1b2b5d9fa57b2ee"
-  integrity sha512-0NLtR71o4k6GLP+mr6Ty34c5GA6CMoEsncKJxvQd8NzPxaHRJNnb5gZE8R1XF4CPIS7QPHLJ74IFszwtNVAHVQ==
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.5.1.tgz#0dd90cf1288ee1d1313b87081c9a5932ee48518a"
+  integrity sha512-9UZCFRHQdNrfTpGg8+1INIg93B6zE0aXMVFkw1WFwvO4SlZywU6aLg5Of0Ap/PgcbSw4LNxvMWXMeugwMCX0AA==
 
 npm-run-path@^2.0.0:
   version "2.0.2"
